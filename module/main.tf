@@ -4,6 +4,12 @@ res_grp = "inni"
 res_loc = "CentralIndia"
 }
 
+module "pokki" {
+source = "../infra"
+res_grp = "mon"
+res_loc = "CentralIndia"
+}
+
 module "fifo" {
 source = "../infra"
 res_grp = "rishu"
@@ -15,4 +21,3 @@ source = "../infra"
 res_grp = "lion"
 res_loc = "CentralIndia"
 }
-
