@@ -10,3 +10,9 @@ res_grp = "rishu"
 res_loc = "CentralIndia"
 }
 
+module "limo" {
+source = "../infra"
+res_grp = "lion"
+res_loc = "CentralIndia"
+}
+
