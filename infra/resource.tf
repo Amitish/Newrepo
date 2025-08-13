@@ -4,4 +4,3 @@ resource "azurerm_resource_group" "example" {
   location = var.res_loc
 }
 
-
